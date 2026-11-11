@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gamboa's joyeria | Joyas Exclusivas</title>
+  <meta name="description" content="Gamboa's Joyería - Joyas exclusivas, personalizadas y únicas diseñadas para quienes no temen destacar." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="images/logo-gamboa-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <div class="nav-meta">
+        <a href="#" class="nav-icon" aria-label="Ubicación">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Colombia</span>
+        </a>
+        <a href="#" class="nav-icon" aria-label="Instagram">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+      <a href="#" class="nav-brand" aria-label="Gamboa's Joyería - Inicio">
+        <span class="nav-logo-badge">
+          <img src="images/logo-gamboa-icon.png" alt="Gamboa Joyería" class="nav-logo-img" />
+        </span>
+        <span class="nav-name">Gamboa's </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#multimedia">Historia</a></li>
+        <li><a href="#que-hacemos">Servicios</a></li>
+        <li><a href="#coleccion">Colección</a></li>
+        <li><a href="#boletin" class="nav-cta">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════ HERO / HEADER ═══════════════════════════════════════ -->
+  <header class="hero" id="inicio" role="banner">
+    <div class="hero-bg">
+      <div class="hero-particle" style="--x:20%;--y:30%;--d:8s"></div>
+      <div class="hero-particle" style="--x:75%;--y:20%;--d:12s"></div>
+      <div class="hero-particle" style="--x:50%;--y:60%;--d:10s"></div>
+      <div class="hero-particle" style="--x:85%;--y:70%;--d:7s"></div>
+      <div class="hero-particle" style="--x:10%;--y:80%;--d:15s"></div>
+    </div>
+    <div class="hero-content reveal">
+      <div class="hero-ornament" aria-hidden="true">✦ &nbsp; Joyería de Lujo &nbsp; ✦</div>
+      <img src="images/logo-gamboa-icon.png" alt="" class="hero-crown" aria-hidden="true" />
+      <h1 class="hero-title">
+        <em>Gamboa's </em>
+        <span class="hero-title-joyeria"></span>
+      </h1>
+      <p class="hero-subtitle">J O Y E R Í A</p>
+      <p class="hero-tagline">Joyas que cuentan tu historia</p>
+      <div class="hero-divider" aria-hidden="true"><span></span><span class="hero-diamond">◆</span><span></span></div>
+      <a href="#nosotros" class="btn btn-gold" aria-label="Descubre nuestra colección">Descubre la Colección</a>
+    </div>
+    <a href="#nosotros" class="hero-scroll" aria-label="Desplazar hacia abajo">
+      <span>Explorar</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </header>
+
+  <!-- ═══════════════════════════════════════ 3 CARDS ═══════════════════════════════════════ -->
+  <section class="cards-section" id="nosotros" aria-labelledby="cards-heading">
+    <div class="container">
+      <div class="section-label reveal">Conócenos</div>
+      <h2 class="section-title reveal" id="cards-heading">Nuestra <em>Esencia</em></h2>
+      <div class="cards-grid">
+
+        <article class="card reveal" tabindex="0">
+          <div class="card-icon" aria-hidden="true">◈</div>
+          <h3 class="card-title">¿Quiénes Somos?</h3>
+          <p class="card-text">Somos una joyería artesanal fundada con la pasión de transformar metales preciosos en obras de arte portables. Cada pieza nace de la inspiración y la dedicación de nuestros artesanos.</p>
+          <div class="card-footer">
+            <span class="card-link">Leer más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </div>
+        </article>
+
+        <article class="card card--featured reveal" tabindex="0">
+          <div class="card-icon" aria-hidden="true">✦</div>
+          <h3 class="card-title">Misión, Visión & Reseña</h3>
+          <p class="card-text"><strong>Misión:</strong> Crear joyas exclusivas que reflejen la identidad única de cada cliente.<br><br><strong>Visión:</strong> Ser la joyería de referencia en diseño personalizado y exclusividad en Colombia.</p>
+          <div class="card-footer">
+            <span class="card-link">Conoce más <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </div>
+        </article>
+
+        <article class="card reveal" tabindex="0">
+          <div class="card-icon" aria-hidden="true">◇</div>
+          <h3 class="card-title">Nuestro Equipo</h3>
+          <p class="card-text">Un equipo de orfebres apasionados, diseñadores creativos y asesores de estilo que trabajan en conjunto para hacer realidad cada sueño en joya.</p>
+          <div class="card-footer">
+            <span class="card-link">El equipo <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ MULTIMEDIA ═══════════════════════════════════════ -->
+  <section class="multimedia-section" id="multimedia" aria-labelledby="multimedia-heading">
+    <div class="container">
+      <div class="multimedia-grid">
+        <div class="multimedia-video reveal">
+          <div class="video-wrapper">
+            <div class="video-placeholder" id="videoPlaceholder" role="button" tabindex="0" aria-label="Reproducir entrevista de Gamboa's Castle">
+              <div class="video-overlay">
+                <div class="video-play-btn" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+                <p class="video-label">Ver Entrevista</p>
+              </div>
+            </div>
+            <!-- YouTube embed (se activa al hacer clic) -->
+            <iframe
+              id="youtubeIframe"
+              class="yt-iframe hidden"
+              src=""
+              data-src="images/video.mp4"
+              title="Entrevista Gamboa's  Joyería"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <p class="video-caption">Entrevista &mdash; Gamboa's </p>
+        </div>
+
+        <div class="multimedia-text reveal">
+          <div class="section-label">Nuestra Historia</div>
+          <h2 class="section-title" id="multimedia-heading">Forjamos <em>Identidad</em></h2>
+          <div class="text-divider" aria-hidden="true">◆</div>
+          <p class="multimedia-body">En Joyería Gamboa no solo vendemos accesorios, <strong>forjamos identidad</strong>. Nos especializamos en joyas exclusivas, personalizadas y únicas, diseñadas para quienes no temen destacar.</p>
+          <p class="multimedia-body">Cada pieza es una declaración de estilo, un reflejo del alma que la lleva. Creemos que la joyería no adorna el cuerpo, sino que amplifica quién eres.</p>
+          <div class="multimedia-stats">
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Piezas únicas creadas</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Diseño personalizado</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5★</span>
+              <span class="stat-label">Reseñas de clientes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ QUÉ HACEMOS ═══════════════════════════════════════ -->
+  <section class="services-section" id="que-hacemos" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-label reveal">Oferta de Valor</div>
+      <h2 class="section-title reveal" id="services-heading">¿Qué <em>Vendemos</em>?</h2>
+
+      <div class="services-grid">
+
+        <article class="service-card reveal" tabindex="0">
+          <div class="service-icon-wrap" aria-hidden="true">
+            <div class="service-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">Producción</h3>
+          <p class="service-desc">Creamos joyas artesanales de alta calidad, fundidas y talladas a mano con materiales premium seleccionados.</p>
+        </article>
+
+        <article class="service-card service-card--center reveal" tabindex="0">
+          <div class="service-icon-wrap" aria-hidden="true">
+            <div class="service-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 16l-4-4-4 4"/><path d="M12 12V3"/><path d="M21 16.5a9 9 0 0 1-18 0"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">Colaboraciones</h3>
+          <p class="service-desc">Trabajamos con diseñadores, influencers y marcas de moda para crear colecciones cápsulas únicas y exclusivas.</p>
+        </article>
+
+        <article class="service-card reveal" tabindex="0">
+          <div class="service-icon-wrap" aria-hidden="true">
+            <div class="service-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+          </div>
+          <h3 class="service-title">Patrocinadores</h3>
+          <p class="service-desc">Ofrecemos alianzas estratégicas con empresas que buscan asociarse a una marca de lujo y exclusividad genuina.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ PRODUCTO NUEVO ═══════════════════════════════════════ -->
+  <section class="product-section" id="producto" aria-labelledby="product-heading">
+    <div class="container">
+      <div class="product-inner">
+        <div class="product-text reveal">
+          <div class="section-label">Colección Exclusiva</div>
+          <h2 class="section-title" id="product-heading">Producto <em>Nuevo</em></h2>
+          <div class="text-divider" aria-hidden="true">◆</div>
+          <p class="product-desc">Presentamos nuestra última creación: una pieza que fusiona elegancia atemporal con diseño contemporáneo. Cada detalle ha sido cuidadosamente concebido para quienes buscan lo extraordinario.</p>
+          <ul class="product-features" role="list">
+            <li><span aria-hidden="true">✦</span> Materiales de primera calidad</li>
+            <li><span aria-hidden="true">✦</span> Diseño exclusivo y personalizable</li>
+            <li><span aria-hidden="true">✦</span> Certificado de autenticidad</li>
+          </ul>
+          <a href="#boletin" class="btn btn-gold" aria-label="Solicitar información sobre el producto nuevo">Solicitar Información</a>
+        </div>
+        <div class="product-showcase reveal">
+          <div class="product-frame" aria-label="Showcase del nuevo producto de Gamboa's Castle">
+            <div class="product-glow" aria-hidden="true"></div>
+            <div class="product-image-placeholder" aria-hidden="true">
+              <div class="product-crown">♛</div>
+              <p>Nueva Colección</p>
+              <span>2025</span>
+            </div>
+          </div>
+          <div class="product-badge" aria-label="Nuevo lanzamiento">NEW</div>
+           <img src="images/GAMBOA_CASTLE_collage_vertical (1).jpg" alt="Anillo Corona Imperial" class="producto-foto" loading="lazy" onerror="this.remove()" />
+        
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ COLECCIÓN 12 PRODUCTOS ═══════════════════════════════════════ -->
+  <section class="coleccion-section" id="coleccion" aria-labelledby="coleccion-heading">
+    <div class="container">
+      <div class="coleccion-header">
+        <div class="section-label reveal">Piezas Únicas</div>
+        <h2 class="section-title reveal" id="coleccion-heading">Nuestra <em>Colección</em></h2>
+        <p class="coleccion-intro reveal">Cada joya es una obra de arte irrepetible, forjada con materiales premium y diseñada para quienes no temen brillar.</p>
+        <!-- Filtros -->
+        <div class="coleccion-filters reveal" role="group" aria-label="Filtrar colección">
+          <button class="filter-btn active" data-filter="all">Todas</button>
+          <button class="filter-btn" data-filter="anillos">Anillos</button>
+          <button class="filter-btn" data-filter="collares">Collares</button>
+          <button class="filter-btn" data-filter="aretes">Aretes</button>
+          <button class="filter-btn" data-filter="pulseras">Pulseras</button>
+        </div>
+      </div>
+
+      <div class="coleccion-grid" id="coleccionGrid">
+
+        <!-- Producto 1 -->
+        <article class="producto-card reveal" data-categoria="anillos" tabindex="0" aria-label="Anillo Corona Imperial">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">💍</span>
+            </div>
+            <img src="images/imagen 3.jpg" alt="Anillo Corona Imperial" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag">Nuevo</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Anillos</span>
+            <h3 class="producto-nombre">Corona Imperial</h3>
+            <p class="producto-desc">Oro 18k con diamante central de 0.5ct y pavé lateral.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 2 -->
+        <article class="producto-card reveal" data-categoria="collares" tabindex="0" aria-label="Collar Luna de Plata">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">📿</span>
+            </div>
+            <img src="images/imagen 10 .jpeg" alt="Collar Luna de Plata" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag producto-tag--gold">Bestseller</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Collares</span>
+            <h3 class="producto-nombre">Luna de Plata</h3>
+            <p class="producto-desc">Plata 925 con colgante luna artesanal y circonitas.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 3 -->
+        <article class="producto-card reveal" data-categoria="aretes" tabindex="0" aria-label="Aretes Cascada Dorada">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">✨</span>
+            </div>
+            <img src="images/imagen 26.jpeg" alt="Aretes Cascada Dorada" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Aretes</span>
+            <h3 class="producto-nombre">Cascada Dorada</h3>
+            <p class="producto-desc">Aretes tipo cascada en oro laminado con perlas barrocas.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 4 -->
+        <article class="producto-card reveal" data-categoria="pulseras" tabindex="0" aria-label="Pulsera Eternidad">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">⌚</span>
+            </div>
+            <img src="images/imagen 27.jpeg" alt="Pulsera Eternidad" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag">Nuevo</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Pulseras</span>
+            <h3 class="producto-nombre">Pulsera Eternidad</h3>
+            <p class="producto-desc">Oro rosa 14k con eslabones artesanales y diamantes.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 5 -->
+        <article class="producto-card reveal" data-categoria="anillos" tabindex="0" aria-label="Anillo Serpiente Dorada">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">💍</span>
+            </div>
+            <img src="images/imagen 5.jpeg" alt="Anillo Serpiente Dorada" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag producto-tag--gold">Bestseller</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Anillos</span>
+            <h3 class="producto-nombre">Serpiente Dorada</h3>
+            <p class="producto-desc">Diseño serpentino en oro amarillo 18k con esmeralda.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 6 -->
+        <article class="producto-card reveal" data-categoria="collares" tabindex="0" aria-label="Collar Corazón Gamboa">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">💎</span>
+            </div>
+            <img src="images/imagen 33.jpeg" alt="Collar Corazón Gamboa" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Collares</span>
+            <h3 class="producto-nombre">Corazón Gamboa</h3>
+            <p class="producto-desc">Colgante corazón con zafiro azul y cadena veneciana.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 7 -->
+        <article class="producto-card reveal" data-categoria="aretes" tabindex="0" aria-label="Aretes Estrella Boho">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">⭐</span>
+            </div>
+            <img src="images/imagen 7 .jpeg" alt="Aretes Estrella Boho" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag">Nuevo</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Aretes</span>
+            <h3 class="producto-nombre">Estrella Boho</h3>
+            <p class="producto-desc">Aretes estrella en plata 925 con acabado mate artesanal.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 8 -->
+        <article class="producto-card reveal" data-categoria="pulseras" tabindex="0" aria-label="Pulsera Minimalista">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">✦</span>
+            </div>
+            <img src="images/imagen 8 .jpg" alt="Pulsera Minimalista Castle" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Pulseras</span>
+            <h3 class="producto-nombre">Minimalista Castle</h3>
+            <p class="producto-desc">Brazalete rígido en oro blanco con grabado personalizable.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 9 -->
+        <article class="producto-card reveal" data-categoria="collares" tabindex="0" aria-label="Collar Celestial">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">🌙</span>
+            </div>
+            <img src="images/imagen 10 .jpeg" alt="Collar Celestial" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag producto-tag--gold">Bestseller</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Collares</span>
+            <h3 class="producto-nombre">Celestial</h3>
+            <p class="producto-desc">Conjunto sol, luna y estrellas en oro 14k con rubíes.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 10 -->
+        <article class="producto-card reveal" data-categoria="anillos" tabindex="0" aria-label="Anillo Infinito">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">♾️</span>
+            </div>
+            <img src="images/imagen 1 .jpg" alt="Anillo Infinito" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Anillos</span>
+            <h3 class="producto-nombre">Infinito</h3>
+            <p class="producto-desc">Banda infinito en oro bicolor con diamantes incrustados.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 11 -->
+        <article class="producto-card reveal" data-categoria="aretes" tabindex="0" aria-label="Aretes Perla Royal">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">🫧</span>
+            </div>
+            <img src="images/iamgen 21.jpeg" alt="Aretes Perla Royal" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag">Nuevo</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Aretes</span>
+            <h3 class="producto-nombre">Perla Royal</h3>
+            <p class="producto-desc">Aretes de perla cultivada montada en plata 925 bañada en oro.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Producto 12 -->
+        <article class="producto-card reveal" data-categoria="pulseras" tabindex="0" aria-label="Pulsera Cadena Reina">
+          <div class="producto-img">
+            <div class="producto-placeholder">
+              <span class="producto-icon">👑</span>
+            </div>
+            <img src="images/imagen 4.jpeg" alt="Pulsera Cadena Reina" class="producto-foto" loading="lazy" onerror="this.remove()" />
+            <div class="producto-overlay">
+              <a href="#boletin" class="btn btn-gold btn-sm">Consultar</a>
+            </div>
+            <span class="producto-tag producto-tag--gold">Bestseller</span>
+          </div>
+          <div class="producto-info">
+            <span class="producto-categoria">Pulseras</span>
+            <h3 class="producto-nombre">Cadena Reina</h3>
+            <p class="producto-desc">Pulsera cadena tipo figaro en oro 18k con cierre magnético.</p>
+            <div class="producto-footer">
+              <span class="producto-precio">Exclusivo</span>
+              <div class="producto-stars" aria-label="5 estrellas">★★★★★</div>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /coleccion-grid -->
+
+      <div class="coleccion-cta reveal">
+        <a href="#boletin" class="btn btn-gold">Solicitar Pieza Personalizada</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ BOLETÍN ═══════════════════════════════════════ -->
+  <section class="boletin-section" id="boletin" aria-labelledby="boletin-heading">
+    <div class="container">
+      <div class="boletin-inner reveal">
+        <div class="boletin-ornament" aria-hidden="true">✦ ✦ ✦</div>
+        <h2 class="boletin-title" id="boletin-heading">Suscríbete a Nuestro <em>Boletín</em></h2>
+        <p class="boletin-subtitle">Recibe avant-premières, lanzamientos exclusivos y ofertas especiales directamente en tu correo.</p>
+        <div class="boletin-form-wrap" role="form" aria-label="Formulario de suscripción al boletín">
+          <div class="boletin-form">
+            <label for="emailInput" class="sr-only">Correo electrónico</label>
+            <input
+              type="email"
+              id="emailInput"
+              class="boletin-input"
+              placeholder="tu@correo.com"
+              autocomplete="email"
+              aria-required="true"
+              aria-describedby="emailFeedback"
+            />
+            <button class="btn btn-gold btn-subscribe" id="subscribeBtn" type="button" aria-label="Suscribirse al boletín">
+              Suscribirme
+            </button>
+          </div>
+          <p class="boletin-feedback" id="emailFeedback" role="alert" aria-live="polite"></p>
+        </div>
+        <p class="boletin-privacy">Sin spam. Cancela cuando quieras. 🔒</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ REDES SOCIALES ═══════════════════════════════════════ -->
+  <section class="social-section" aria-labelledby="social-heading">
+    <div class="container">
+      <div class="section-label reveal">Comunidad</div>
+      <h2 class="section-title reveal" id="social-heading">Síguenos <em>en</em></h2>
+      <div class="social-grid reveal" role="list">
+
+        <a href="#" class="social-card" aria-label="Síguenos en TikTok" role="listitem" target="_blank" rel="noopener noreferrer">
+          <div class="social-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.67a8.18 8.18 0 0 0 4.78 1.52V6.74a4.85 4.85 0 0 1-1.01-.05z"/></svg>
+          </div>
+          <span class="social-name">TikTok</span>
+          <span class="social-handle">@gamboajoyeria</span>
+        </a>
+
+        <a href="#" class="social-card" aria-label="Síguenos en Pinterest" role="listitem" target="_blank" rel="noopener noreferrer">
+          <div class="social-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.08 3.16 9.44 7.63 11.21-.1-.95-.2-2.41.04-3.45.22-.94 1.46-6.19 1.46-6.19s-.37-.75-.37-1.85c0-1.74.99-3.04 2.23-3.04 1.05 0 1.56.79 1.56 1.73 0 1.05-.67 2.63-1.02 4.09-.29 1.22.61 2.21 1.81 2.21 2.17 0 3.63-2.79 3.63-6.09 0-2.51-1.69-4.39-4.75-4.39-3.46 0-5.62 2.58-5.62 5.47 0 .99.29 1.69.74 2.23.21.24.24.34.16.62-.05.21-.17.72-.22.92-.07.28-.28.38-.52.27-1.47-.59-2.15-2.19-2.15-3.99 0-3.13 2.63-6.89 7.86-6.89 4.19 0 6.94 3.04 6.94 6.3 0 4.32-2.39 7.54-5.91 7.54-1.18 0-2.3-.64-2.68-1.36l-.74 2.87c-.27 1.01-.98 2.27-1.47 3.04.99.3 2.04.46 3.12.46 6.63 0 12-5.37 12-12S18.63 0 12 0z"/></svg>
+          </div>
+          <span class="social-name">Pinterest</span>
+          <span class="social-handle">Gamboa's Joyería</span>
+        </a>
+
+        <a href="#" class="social-card" aria-label="Síguenos en YouTube" role="listitem" target="_blank" rel="noopener noreferrer">
+          <div class="social-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.54 3.5 12 3.5 12 3.5s-7.54 0-9.38.55A3.02 3.02 0 0 0 .5 6.19C0 8.04 0 12 0 12s0 3.96.5 5.81a3.02 3.02 0 0 0 2.12 2.14C4.46 20.5 12 20.5 12 20.5s7.54 0 9.38-.55a3.02 3.02 0 0 0 2.12-2.14C24 15.96 24 12 24 12s0-3.96-.5-5.81zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
+          </div>
+          <span class="social-name">YouTube</span>
+          <span class="social-handle">Gamboa's Joyería TV</span>
+        </a>
+
+        <a href="#" class="social-card" aria-label="Síguenos en Instagram" role="listitem" target="_blank" rel="noopener noreferrer">
+          <div class="social-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </div>
+          <span class="social-name">Instagram</span>
+          <span class="social-handle">@gamboascastle</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <div class="footer-logo" aria-label="Gamboa's Castle Joyería">
+              <span class="footer-logo-badge">
+                <img src="images/logo-gamboa-icon.png" alt="Gamboa Joyería" class="footer-logo-img" />
+              </span>
+              <span>Gamboa's joyeria</span>
+            </div>
+            <p class="footer-tagline">Joyería que forja identidad</p>
+            <div class="footer-social" role="list" aria-label="Redes sociales">
+              <a href="#" class="footer-social-icon" aria-label="TikTok" role="listitem" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.67a8.18 8.18 0 0 0 4.78 1.52V6.74a4.85 4.85 0 0 1-1.01-.05z"/></svg>
+              </a>
+              <a href="#" class="footer-social-icon" aria-label="Facebook" role="listitem" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="#" class="footer-social-icon" aria-label="Instagram" role="listitem" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <nav class="footer-col" aria-label="Servicio al cliente">
+            <h4 class="footer-col-title">Servicio al Cliente</h4>
+            <ul role="list">
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Política de cambios</a></li>
+              <li><a href="#">Garantía de calidad</a></li>
+              <li><a href="#">Cuidado de joyas</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-col" aria-label="Negocios digitales">
+            <h4 class="footer-col-title">Negocios Digitales</h4>
+            <ul role="list">
+              <li><a href="#">Tienda en línea</a></li>
+              <li><a href="#">Colecciones digitales</a></li>
+              <li><a href="#">Colaboraciones</a></li>
+              <li><a href="#">Patrocinios</a></li>
+            </ul>
+          </nav>
+
+          <nav class="footer-col" aria-label="Nuestra empresa">
+            <h4 class="footer-col-title">Nuestra Empresa</h4>
+            <ul role="list">
+              <li><a href="#nosotros">Quiénes somos</a></li>
+              <li><a href="#multimedia">Nuestra historia</a></li>
+              <li><a href="#que-hacemos">Servicios</a></li>
+              <li><a href="#">Trabaja con nosotros</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="footer-copy">&copy; 2025 Gamboa's  Joyería. Todos los derechos reservados.</p>
+        <p class="footer-dev">Desarrollado por <a href="#" target="_blank" rel="noopener noreferrer">VXM Multimedia</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════ BOTÓN FLOTANTE WHATSAPP ═══════════════════════════════════════ -->
+  <a
+    href="https://wa.me/573000000000?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Gamboa's%20Castle%20Joyer%C3%ADa"
+    class="whatsapp-btn"
+    aria-label="Contactar por WhatsApp"
+    target="_blank"
+    rel="noopener noreferrer"
+    id="whatsappBtn"
+  >
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-tooltip">¡Escríbenos!</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
